@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260">
+  <rect width="1200" height="260" fill="#EDEFEA"/>
+  <rect x="0" y="0" width="10" height="260" fill="#C1432B"/>
+
+  <text x="60" y="108" font-family="Helvetica Neue, Arial, sans-serif" font-size="54" font-weight="700" fill="#14181C" letter-spacing="-0.5">Experiences API</text>
+  <text x="60" y="148" font-family="Georgia, serif" font-size="21" fill="#4A5058">A Spring Boot service for booking travel experiences, with capacity enforced per date.</text>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" fill="#4A5058">
+    <rect x="60" y="176" width="76" height="28" rx="14" fill="#FFFFFF" stroke="#A9B0A5"/>
+    <text x="98" y="194" text-anchor="middle">Java 17</text>
+
+    <rect x="146" y="176" width="128" height="28" rx="14" fill="#FFFFFF" stroke="#A9B0A5"/>
+    <text x="210" y="194" text-anchor="middle">Spring Boot 3.3</text>
+
+    <rect x="284" y="176" width="70" height="28" rx="14" fill="#FFFFFF" stroke="#A9B0A5"/>
+    <text x="319" y="194" text-anchor="middle">JPA</text>
+
+    <rect x="364" y="176" width="52" height="28" rx="14" fill="#FFFFFF" stroke="#A9B0A5"/>
+    <text x="390" y="194" text-anchor="middle">H2</text>
+
+    <rect x="426" y="176" width="150" height="28" rx="14" fill="#FBEDE9" stroke="#C1432B"/>
+    <text x="501" y="194" text-anchor="middle" fill="#C1432B">JUnit &#183; Mockito</text>
+  </g>
+
+  <g transform="translate(980,60)">
+    <rect x="0" y="0" width="150" height="90" rx="8" fill="#FFFFFF" stroke="#A9B0A5"/>
+    <rect x="0" y="0" width="150" height="90" rx="8" fill="none" stroke="#C7CCC4"/>
+    <line x1="12" y1="0" x2="12" y2="90" stroke="#EDEFEA" stroke-width="1" stroke-dasharray="1,5"/>
+    <text x="75" y="34" text-anchor="middle" font-family="ui-monospace, monospace" font-size="11" fill="#7D8580" letter-spacing="1">BOOKING REF</text>
+    <text x="75" y="58" text-anchor="middle" font-family="ui-monospace, monospace" font-size="16" font-weight="700" fill="#14181C">VTR-A1B2C3D4</text>
+    <text x="75" y="76" text-anchor="middle" font-family="Helvetica Neue, Arial, sans-serif" font-size="10" fill="#C1432B" letter-spacing="1">201 CREATED</text>
+  </g>
+</svg>

@@ -1,0 +1,41 @@
+spring:
+  application:
+    name: experiences-api
+
+  datasource:
+    # In-memory H2. The whole database lives in RAM and disappears when the app
+    # stops, which is exactly what we want for a demo: clone, run, done.
+    url: jdbc:h2:mem:experiences;DB_CLOSE_DELAY=-1
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: ""
+
+  jpa:
+    hibernate:
+      # create-drop: Hibernate builds the schema from the @Entity classes at
+      # startup and drops it at shutdown. Fine for a demo; in a real system you
+      # would use Flyway or Liquibase migrations and set this to 'validate'.
+      ddl-auto: create-drop
+    # Without this, data.sql runs BEFORE Hibernate creates the tables and fails.
+    defer-datasource-initialization: true
+    properties:
+      hibernate:
+        format_sql: true
+    show-sql: false
+
+  sql:
+    init:
+      mode: always
+
+  h2:
+    console:
+      # Browse the database at http://localhost:8080/h2-console while running.
+      # JDBC URL: jdbc:h2:mem:experiences  |  user: sa  |  no password
+      enabled: true
+
+server:
+  port: 8080
+
+logging:
+  level:
+    com.ashutosh.experiences: DEBUG
