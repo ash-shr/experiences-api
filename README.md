@@ -9,7 +9,7 @@ A small backend service for browsing travel experiences and booking a place on o
 - Lists experiences, with optional filters for city and price
 - Checks how many places are left on a given date
 - Creates a booking — rejected with a clear error if the date is full
-- Cancels a booking, which frees the places back up
+- Cancels a booking, which frees the places back up 
 
 ## How it's built
 
