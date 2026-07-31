@@ -50,6 +50,9 @@ public class Experience {
     @Column(nullable = false)
     private int dailyCapacity;
 
+    @Column(nullable = false)
+    private boolean familyFriendly;
+
     /**
      * JPA requires a no-arg constructor so Hibernate can instantiate the entity
      * via reflection before populating its fields. It is protected rather than
@@ -99,6 +102,10 @@ public class Experience {
 
     public int getDailyCapacity() {
         return dailyCapacity;
+    }
+
+    public boolean isFamilyFriendly() {
+        return familyFriendly;
     }
 
     /**
